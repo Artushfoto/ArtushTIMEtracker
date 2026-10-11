@@ -236,7 +236,6 @@ Artush Time Tracker features an intelligent collision protection engine. If a ne
 ### 3. Generate Professional Client Timesheets & Invoices
 Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
 
-
 <p align="center">
   <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
     <img src="images/month-view.webp" width="45%" alt="App screen before starting track recording">
