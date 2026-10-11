@@ -241,9 +241,6 @@ Artush Time Tracker features an intelligent collision protection engine. If a ne
 ### 3. Generate Professional Client Timesheets & Invoices
 Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
 
- <a href="images/search-work.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/search-work.webp" width="100%" alt="Artush Time Tracker - Search in logged work by keywords and filters">
-  </a>
 ---
 
 ### Why Choose 100% Offline & Zero-Cloud Tracking?
@@ -342,6 +339,10 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **Multi-Field Filtering:** Search through task titles, rich notes, tags (`#tag`), submitters, projects, and work types simultaneously.
 * **Time Range Selector:** Filter searches by *Current Week*, *Current Month*, *Current Year*, *All Time*, or a *Custom Date Range*.
 * **Direct Navigation:** Click **View Day →** next to any search result to open the day view at the exact time slot.
+
+ <a href="images/search-work.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/search-work.webp" width="100%" alt="Artush Time Tracker - Search in logged work by keywords and filters">
+  </a>
 
 ### 5. Statistics & Analytics
 * **Summary Metrics:** Instant computation of Total Logged Hours, Billable Time, Non-Billable Time, Breaks, and Estimated Gross Revenue.
