@@ -211,6 +211,8 @@ h1 { text-align: center; }
 <div style="width: 100%; max-width: 1200px; margin: 0 auto 0px auto;">
   <object type="image/svg+xml" data="time-tracker.svg" title="ArtushVision Time Tracker Features - Visual Timelines and Drag-and-Drop Scheduling" aria-label="ArtushVision Time Tracker Features - Visual Timelines and Drag-and-Drop Scheduling" style="width: 100%; height: auto; aspect-ratio: 1200 / 630; display: block;">
     <img src="time-tracker.svg" alt="ArtushVision Time Tracker Features - Visual Timelines, Drag-and-Drop Scheduling, Project Rates, and PDF Timesheets" />
+  </object>
+</div>
 
 **Fast, 100% offline desktop work log, time tracker, and billing report generator.**
 
