@@ -238,10 +238,10 @@ Filter your workload by project, date range, activity type, or custom tags. Expo
 
 <p align="center">
   <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/month-view.webp" width="45%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
+    <img src="images/month-view.webp" width="49%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
   </a>
   <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/week-view.webp" width="45%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
+    <img src="images/week-view.webp" width="49%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
   </a>
 </p>
 
@@ -268,12 +268,6 @@ Whether you bill multiple external clients by the hour or track internal enginee
 * **Consultants, Designers & Photographers:** Easily switch between projects, monitor project time budgets, and review monthly workload distribution.
 
 ---
-
-<p align="center">
-  <img src="images/day-view.webp" width="31%" alt="Artush Time Tracker Day View with timeline, zoom, and task cards">
-  <img src="images/week-view.webp" width="31%" alt="Artush Time Tracker Week View with multi-day calendar grid">
-  <img src="images/month-view.webp" width="31%" alt="Artush Time Tracker Month View with public holidays and daily totals">
-</p>
 
 ## Key Features and Benefits
 
