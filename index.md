@@ -371,11 +371,6 @@ Export your work logs accurately with versatile filtering (by client, work type,
 * **Detailed Work Log:** Structured table listing date, time slot, duration, project, activity type, and billable status.
 * **Formal Sign-Off Block:** Pre-formatted signature and approval lines for contractor/employee and managing approver.
 
-<a href="images/pdf-export-preview.webp" target="_blank" class="screenshot-link">
-  <img src="images/pdf-export-preview.webp" alt="Artush Time Tracker PDF Timesheet Report with embedded charts and sign-off section" width="100%" class="screenshot-img">
-</a>
-<div style="height: 5px;"></div>
-
 ### 2. Microsoft Excel Workbooks (`.xlsx`) 📊
 * **Sheet 1 (Detailed Timesheet):** Clean chronological entries with date, start/end times, project name, activity, submitter, tags, and duration.
 * **Sheet 2 (Project Summary & Chart):** Automated summary aggregation by project paired with an Excel native column chart.
@@ -419,11 +414,11 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 
 ## Links & Downloads
 
-* **Artush Time Tracker (💻 Desktop Application for Windows)**
+* **Artush Time Tracker (Desktop Application for Windows)**
 
 [**Download Artush Time Tracker for Windows (Free Version)**](https://github.com) *(Latest Stable Release)*
 
-[**Buy Perpetual PRO License for €5.99 on Polar.sh**](https://polar.sh)
+[**Buy Perpetual PRO License for €5.99**](https://buy.polar.sh/polar_cl_XeIcjrX0VuAY1mG4nZkEt1nCJCZyCvpKujQ1k1wTiCW)
 
 ---
 
