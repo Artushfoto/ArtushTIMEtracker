@@ -293,6 +293,10 @@ Everything you need to master your schedule, track billable time, and generate f
 * **Executive PDF Timesheets with Sign-Off Sections**  
   Export client-ready PDF documents featuring executive summaries, embedded high-resolution charts, full task logs, and formal Employee & Manager signature lines.
 
+<a href="images/time-sheet.webp" target="_blank" rel="noopener noreferrer">
+  <img src="images/time-sheet.webp" width="100%" alt="Artush Time Tracker - Detailed timesheet view with logged tasks and total hours summary">
+</a>
+
 * **Structured Excel (.xlsx) & CSV Exports**  
   Generate multi-tab Excel workbooks containing detailed task logs, project summary tables, and embedded column charts, or export clean CSV files for external ERP workflows.
 
@@ -358,14 +362,6 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **Worker & Approver Profiles:** Set up employee name, department/ID, and supervisor name for automatic inclusion in exported timesheets.
 * **Public Holiday Manager:** Fetch official country holidays over the web, import JSON/CSV calendars, or log custom vacation dates.
 * **Backup & Restore Hub:** Export full ZIP archives, manage automatic backups, or restore past snapshots safely.
-
----
-
-<p align="center">
-  <img src="images/search-view.webp" width="31%" alt="Artush Time Tracker Search View with query filters and tags">
-  <img src="images/stats-charts.webp" width="31%" alt="Artush Time Tracker Statistics View with charts and revenue calculations">
-  <img src="images/settings-dialog.webp" width="31%" alt="Artush Time Tracker Settings Dialog with client rates and holiday management">
-</p>
 
 ---
 
