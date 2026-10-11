@@ -237,11 +237,11 @@ Artush Time Tracker features an intelligent collision protection engine. If a ne
 Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
 
 <p align="center">
-  <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/month-view.webp" width="49%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
+  <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/stats.webp" width="49%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
   </a>
-  <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/week-view.webp" width="49%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
+  <a href="images/search-work.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/search-work.webp" width="49%" alt="Artush Time Tracker - Search in logged work by keywords and filters">
   </a>
 </p>
 
@@ -321,6 +321,15 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **Task Management:** Double-click or click-and-drag to create new tasks; right-click to edit, copy, paste, or delete.
 * **Header Summary:** Real-time counters showing **Total Worked Hours**, **Billable Time**, and **Break / Unpaid Time** for the selected day.
 
+<p align="center">
+  <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/month-view.webp" width="49%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
+  </a>
+  <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/week-view.webp" width="49%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
+  </a>
+</p>
+
 ### 2. Week View
 * **Comprehensive 7-Day Grid:** Displays all working days alongside configured work hours and weekend slots.
 * **Drag-and-Drop Scheduling:** Effortlessly move tasks between days and hours with instant collision feedback.
@@ -377,6 +386,14 @@ Export your work logs accurately with versatile filtering (by client, work type,
 
 ### 3. Standard CSV Spreadsheets (`.csv`) 📋
 * UTF-8 encoded with standard semicolon delimiters for frictionless import into QuickBooks, SAP, Xero, Google Sheets, or custom SQL databases.
+
+
+<p align="center">
+  <img src="images/stats.webp" width="31%" alt="Artush Time Tracker Search View with query filters and tags">
+  <img src="images/stats.webp" width="31%" alt="Artush Time Tracker Statistics View with charts and revenue calculations">
+  <img src="images/settings-dialog.webp" width="31%" alt="Artush Time Tracker Settings Dialog with client rates and holiday management">
+</p>
+
 
 ---
 
