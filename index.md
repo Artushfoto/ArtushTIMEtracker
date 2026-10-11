@@ -221,6 +221,11 @@ h1 { text-align: center; }
 
 **Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload, organize client projects with customizable hourly rates, eliminate time overlap collisions, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
 
+  <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
+  </a>
+
+
 ---
 
 ## How Does Artush Time Tracker Work?
@@ -236,15 +241,9 @@ Artush Time Tracker features an intelligent collision protection engine. If a ne
 ### 3. Generate Professional Client Timesheets & Invoices
 Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
 
-<p align="center">
-  <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/stats.webp" width="49%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
+ <a href="images/search-work.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/search-work.webp" width="100%" alt="Artush Time Tracker - Search in logged work by keywords and filters">
   </a>
-  <a href="images/search-work.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/search-work.webp" width="49%" alt="Artush Time Tracker - Search in logged work by keywords and filters">
-  </a>
-</p>
-
 ---
 
 ### Why Choose 100% Offline & Zero-Cloud Tracking?
@@ -321,24 +320,23 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **Task Management:** Double-click or click-and-drag to create new tasks; right-click to edit, copy, paste, or delete.
 * **Header Summary:** Real-time counters showing **Total Worked Hours**, **Billable Time**, and **Break / Unpaid Time** for the selected day.
 
-<p align="center">
-  <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/month-view.webp" width="49%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
-  </a>
-  <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
-    <img src="images/week-view.webp" width="49%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
-  </a>
-</p>
-
 ### 2. Week View
 * **Comprehensive 7-Day Grid:** Displays all working days alongside configured work hours and weekend slots.
 * **Drag-and-Drop Scheduling:** Effortlessly move tasks between days and hours with instant collision feedback.
 * **Batch Copy to Workdays:** Right-click any task to replicate it across all remaining business days of the week.
 
+  <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/week-view.webp" width="100%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
+  </a>
+
 ### 3. Month View
 * **Calendar Overview:** Quick visual orientation across every day of the month.
 * **Daily Totals & Holidays:** Highlights official public holidays, custom non-working days, and total logged hours for each date.
 * **One-Click Day Jump:** Click any calendar cell to instantly open and edit that specific day.
+
+  <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/month-view.webp" width="100%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
+  </a>
 
 ### 4. Global Search (`Ctrl+F`)
 * **Multi-Field Filtering:** Search through task titles, rich notes, tags (`#tag`), submitters, projects, and work types simultaneously.
