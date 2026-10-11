@@ -3,5 +3,5 @@
   "release_date": "2026-10-11",
   "download_url": "https://github.com/Artushfoto/ArtushTIMEtracker/releases/latest",
   "installer_url": "https://github.com/Artushfoto/ArtushTIMEtracker/releases/latest",
-  "changelog": "Vydání verze Artush Time Tracker v2026.1:<br>• Kompletní sledování a plánování odpracovaného času (Den, Týden, Měsíc)<br>• Inteligentní detekce časových kolizí a automatické přizpůsobení časů<br>• Pokročilé statistiky, koláčové a sloupcové grafy, sledování fakturovatelnosti<br>• Profesionální export do PDF (včetně grafů a schvalovací sekce), Excelu (.xlsx) a CSV<br>• Automatická kontrola nových verzí na GitHubu<br>• 100% lokální SQLite databáze a bezpečné ZIP zálohování s obnovou"
+  "changelog": "Artush Time Tracker v2026.1 Release:<br>• Complete time tracking and planning (Day, Week, Month)<br>• Smart time conflict detection and automatic time adjustment<br>• Advanced analytics, pie and bar charts, billability tracking<br>• Professional export to PDF (including charts and approval section), Excel (.xlsx), and CSV<br>• Automatic check for new updates on GitHub<br>• 100% local SQLite database and secure ZIP backup & restore"
 }
