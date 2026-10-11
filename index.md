@@ -238,10 +238,12 @@ Filter your workload by project, date range, activity type, or custom tags. Expo
 
 
 <p align="center">
-  <img src="images/start-recording.webp" width="22%" alt="App screen before starting track recording">
-  <img src="images/recording.webp" width="22%" alt="App screen during active track recording">
-  <img src="images/tracks.webp" width="22%" alt="App screen showing list of saved tracks">
-  <img src="images/clock.webp" width="22%" alt="App screen showing camera clock synchronization">
+  <a href="images/month-view.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/month-view.webp" width="45%" alt="App screen before starting track recording">
+  </a>
+  <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
+    <img src="images/week-view.webp" width="45%" alt="App screen during active track recording">
+  </a>
 </p>
 
 ---
