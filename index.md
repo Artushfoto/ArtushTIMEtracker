@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Artush Time Tracker | 100% Offline Desktop Time Tracking & Billing"
+title: "Free Time Tracker | 100% Offline Desktop Time Tracking & Billing"
 description: "Fast, privacy-first desktop time tracker and billing generator for freelancers and contractors. Interactive calendar views, analytics charts, and professional PDF/Excel export."
 ---
 
