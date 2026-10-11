@@ -382,14 +382,6 @@ Export your work logs accurately with versatile filtering (by client, work type,
 ### 3. Standard CSV Spreadsheets (`.csv`) 📋
 * UTF-8 encoded with standard semicolon delimiters for frictionless import into QuickBooks, SAP, Xero, Google Sheets, or custom SQL databases.
 
-
-<p align="center">
-  <img src="images/stats.webp" width="31%" alt="Artush Time Tracker Search View with query filters and tags">
-  <img src="images/stats.webp" width="31%" alt="Artush Time Tracker Statistics View with charts and revenue calculations">
-  <img src="images/settings-dialog.webp" width="31%" alt="Artush Time Tracker Settings Dialog with client rates and holiday management">
-</p>
-
-
 ---
 
 ## Fair & Transparent Licensing (Free vs. PRO)
