@@ -202,14 +202,14 @@ Search the documentation pages directly or jump back to the main [Complete Docum
       // 1. Dynamické vložení externího skriptu gtag.js s ID
       var gtagScript = document.createElement('script');
       gtagScript.async = true;
-      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KCZWMGZFJ5';
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-GWJ4NLYPWT';
       document.head.appendChild(gtagScript);
 
       // 2. Inicializace nastavení Google Analytics
       window.dataLayer = window.dataLayer || [];
       window.gtag = function(){ dataLayer.push(arguments); }
       gtag('js', new Date());
-      gtag('config', 'G-KCZWMGZFJ5');
+      gtag('config', 'G-GWJ4NLYPWT');
 
       // 3. Odstranění posluchačů událostí po úspěšném načtení
       document.removeEventListener('scroll', loadAnalytics);
