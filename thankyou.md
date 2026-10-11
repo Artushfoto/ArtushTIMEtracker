@@ -1,6 +1,6 @@
 ---
 title: "Thank You for Purchasing"
-description: "Manage your ArtushVision AI license easily. Activate your AI photography software on up to 2 devices, handle deactivations via Polar.sh, and access professional metadata tools."
+description: "Manage your ArtushVision Time Tracker license easily. Activate your professional time tracking software on up to 2 devices, handle deactivations via Polar.sh, and access robust project and billable hours management tools."
 ---
 <div style="display: none;">
 <style>
@@ -141,41 +141,41 @@ h1 { text-align: center; }
 </style>
 </div>
 
-# Thank You for purchase
+# Thank You for Your Purchase
 
-[← Back to ArtushVision AI Home](https://vision.artushfoto.eu)
+[← Back to ArtushVision Time Tracker Home](https://timetracker.artushfoto.eu)
 
-**ArtushVision AI** is a professional desktop application designed to streamline the workflow of photographers and videographers. It leverages state-of-the-art Computer Vision AI to automatically generate keywords, titles, and descriptions for **JPG, RAW, and video assets**, while providing robust tools for manual metadata management.
+**ArtushVision Time Tracker** is a professional time tracking and project management application designed to streamline work hours logging, task tracking, and billing for freelancers, developers, and agencies. It offers intuitive tracking controls, detailed productivity reports, and seamless license management.
 
-## Managing Your ArtushVision AI License
+## Managing Your ArtushVision Time Tracker License
 
-> Your ArtushVision AI license allows activation on up to **2 devices** simultaneously. Use this guide to manage your software activations and account settings.
+> Your ArtushVision Time Tracker license allows activation on up to **2 devices** simultaneously. Use this guide to manage your software activations and account settings.
 
 ### 1. Access Your Customer Portal
 All software licenses are securely managed via **Polar.sh**. To manage your account:
-* Visit the [ArtushVision Customer Portal](https://polar.sh/artushfoto/portal/request)
-* Enter the **email address** used during your purchase.
-* Check your email for a "Magic Link" to log in instantly.
+- Visit the [ArtushVision Customer Portal](https://polar.sh/artushfoto/portal/request)
+- Enter the **email address** used during your purchase.
+- Check your email for a "Magic Link" to log in instantly.
 
 ### 2. Locate Your Software License
-Once logged in to your dashboard, navigate to the **"Purchases"** or **"Benefits"** section. Here you will find your active ArtushVision AI license details.
+Once logged in to your dashboard, navigate to the **"Purchases"** or **"Benefits"** section. Here you will find your active ArtushVision Time Tracker license details.
 
 ### 3. Deactivating a Device
-* Find the **"Instances"** or **"Devices"** section under your active license.
-* Click **"Deactivate"** next to the specific device you no longer wish to use. This instantly frees up a slot for your new device activation.
+- Find the **"Instances"** or **"Devices"** section under your active license.
+- Click **"Deactivate"** next to the specific device you no longer wish to use. This instantly frees up a slot for your new device activation.
 
 ---
 
 ### Technical Support
-If you have questions regarding your license, activation issues, or need technical assistance with our AI metadata tools, please reach out to our team.
+If you have questions regarding your license, activation issues, or need technical assistance with our time tracking tools, please reach out to our team.
 
 **Email Support:** **support(@)artushfoto.eu**
 
 ---
 
 ### [Get Started Now]
-* [Download Free Lite Version](/docs/download-purchase.html)
-* [Purchase Lifetime License - $39.99](/docs/download-purchase.html#buy-lifetime-license)
+- [Download Free Lite Version](/docs/download-purchase.html)
+- [Purchase Lifetime License - $29.99](/docs/download-purchase.html#buy-lifetime-license)
 
 ---
 
@@ -184,17 +184,17 @@ Search the documentation pages directly or jump back to the main [Complete Docum
 
 ---
 
-[← Back to ArtushVision AI Home](https://vision.artushfoto.eu)
+[← Back to ArtushVision Time Tracker Home](https://timetracker.artushfoto.eu)
 
-[⭐ User Reviews & Testimonials](/docs/artushvision-reviews.html)
+[⭐ User Reviews & Testimonials](/docs/timetracker-reviews.html)
 
 [❓ Frequently Asked Questions (FAQ)](/docs/faq.html)
 
-[💬 Support, Bugs & Community Forum](https://github.com/Artushfoto/ArtushVision-AI/discussions)
+[💬 Support, Bugs & Community Forum](https://github.com/Artushfoto/ArtushVision-TimeTracker/discussions)
 
 ---
 
-*ArtushVision AI - Stability and precision for professional photography workflows.*
+*ArtushVision Time Tracker - Precision and efficiency for your daily workflow.*
 
 <!-- Odložené načtení Google Analytics pro maximální PageSpeed skóre -->
 <script>
@@ -205,13 +205,13 @@ Search the documentation pages directly or jump back to the main [Complete Docum
       if (analyticsLoaded) return;
       analyticsLoaded = true;
 
-      // 1. Dynamické vložení externího skriptu gtag.js s NOVÝM ID
+      // 1. Dynamické vložení externího skriptu gtag.js s ID
       var gtagScript = document.createElement('script');
       gtagScript.async = true;
       gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KCZWMGZFJ5';
       document.head.appendChild(gtagScript);
 
-      // 2. Inicializace nastavení Google Analytics s NOVÝM ID
+      // 2. Inicializace nastavení Google Analytics
       window.dataLayer = window.dataLayer || [];
       window.gtag = function(){ dataLayer.push(arguments); }
       gtag('js', new Date());
