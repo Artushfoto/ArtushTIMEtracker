@@ -405,6 +405,13 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 > [!NOTE]
 > The **Free Edition** is completely usable without any expiration date or task caps. Purchasing a **PRO License** for just €5.99 on [Polar.sh](https://polar.sh) removes all sponsor countdown windows permanently and supports independent software development.
 
+<p align="center">
+  <img src="images/settings.webp" width="22%" alt="App screen before starting track recording">
+  <img src="images/public-holidays.webp" width="22%" alt="App screen during active track recording">
+  <img src="images/tracks.webp" width="22%" alt="App screen showing list of saved tracks">
+</p>
+
+
 ---
 
 ## Installation & System Requirements
