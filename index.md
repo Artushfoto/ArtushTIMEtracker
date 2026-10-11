@@ -214,6 +214,7 @@ h1 { text-align: center; }
   </object>
 </div>
 
+---
 
 **Fast, 100% offline desktop work log, time tracker, and billing report generator.**
 
