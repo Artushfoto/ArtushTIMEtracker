@@ -263,6 +263,10 @@ Whether you bill multiple external clients by the hour or track internal enginee
 * **IT Support & Systems Administrators:** Document tickets, client visits, task requestors (*submitters*), and issue resolutions.
 * **Consultants, Designers & Photographers:** Easily switch between projects, monitor project time budgets, and review monthly workload distribution.
 
+<a href="images/task-detail.webp" target="_blank" rel="noopener noreferrer">
+  <img src="images/task-detail.webp" width="100%" alt="Artush Time Tracker - Detailed task view with logged time, description, and project assignment">
+</a>
+
 ---
 
 ## Key Features and Benefits
