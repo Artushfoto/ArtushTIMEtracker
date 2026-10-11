@@ -219,7 +219,7 @@ h1 { text-align: center; }
 
 **Fast, 100% offline desktop work log, time tracker, and billing report generator.**
 
-**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload, organize client projects with customizable hourly rates, eliminate time overlap collisions, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
+**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
 
   <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
     <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
@@ -233,13 +233,13 @@ h1 { text-align: center; }
 **Take full control of your working hours, project billing, and client timesheets in three easy steps:**
 
 ### 1. Plan & Log Your Daily Work
-Add work blocks quickly across intuitive **Day**, **Week**, or **Month** views. Select the client project, specify the activity type, assign hourly rates, add rich text notes, or tag specific tasks (e.g., `#urgent`, `#meeting`, `#remote`). Need to log an unpaid lunch or break? Simply mark it to exclude it from your billable work hours with a single click.
+Add work blocks quickly across intuitive **Day**, **Week**, or **Month** views. Select the client project, specify the activity type, mark tasks as billable or non-billable, and take advantage of automatic hourly rate calculation with custom rate overrides. Need to log an unpaid lunch or break? Simply mark it to exclude it from your work hours with a single click.
 
 ### 2. Prevent Scheduling Conflicts Automatically
 Artush Time Tracker features an intelligent collision protection engine. If a newly created task or dragged time block overlaps with an existing appointment, the system immediately flags the conflict and suggests optimal start and end times to fit your schedule without tedious recalculation.
 
 ### 3. Generate Professional Client Timesheets & Invoices
-Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
+Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts, itemized earnings, and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
 
 ---
 
@@ -259,7 +259,7 @@ Unlike modern cloud trackers that store sensitive client names, financial rates,
 Whether you bill multiple external clients by the hour or track internal engineering sprint tasks, Artush Time Tracker fits your routine:
 
 * **Software Developers & DevOps Engineers:** Track sprints, customer deployments, bug fixes, and server maintenance with `#tags` and rich notes.
-* **Freelancers & Contractors:** Keep precise records of billable vs. non-billable hours, calculate projected earnings, and provide clients with verifiable timesheets.
+* **Freelancers & Contractors:** Keep precise records of billable vs. non-billable hours, apply custom task rate overrides for rush/night assignments, calculate projected earnings in real time across multiple currencies, and provide clients with verifiable timesheets.
 * **IT Support & Systems Administrators:** Document tickets, client visits, task requestors (*submitters*), and issue resolutions.
 * **Consultants, Designers & Photographers:** Easily switch between projects, monitor project time budgets, and review monthly workload distribution.
 
@@ -282,8 +282,8 @@ Everything you need to master your schedule, track billable time, and generate f
 * **Multi-Day Task Replication**  
   Quickly copy standing tasks or daily meetings across all selected workdays in the current week with a single click.
 
-* **Project & Hourly Rate Management**  
-  Assign custom color codes and distinct hourly rates to each client or project. Support for internal / non-billable work (0.00 rate) and unpaid breaks.
+* **Flexible Billing Hierarchy, Multi-Currency & Task Rate Overrides**  
+  Assign custom color codes, distinct hourly rates, and specific currencies (CZK, EUR, USD, GBP, CHF) to each client or project, or define non-billable internal work (0.00 rate). For special assignments, night shifts, emergency interventions, or flat-rate jobs, easily override the project rate directly inside the task dialog. A live interactive rate preview computes your estimated earnings on the fly as you adjust task times.
 
 * **Rich Text Notes & Task Metadata**  
   Add detailed documentation with rich text formatting (bold, italics), assign task requestors (*submitter*), and organize work using searchable `#tags`.
@@ -295,14 +295,14 @@ Everything you need to master your schedule, track billable time, and generate f
   Explore your working habits with dynamic pie charts (project and activity breakdown) and bar charts (daily hours progression and comparative project volumes).
 
 * **Executive PDF Timesheets with Sign-Off Sections**  
-  Export client-ready PDF documents featuring executive summaries, embedded high-resolution charts, full task logs, and formal Employee & Manager signature lines.
+  Export client-ready PDF documents featuring executive summaries with total invoiced amounts, embedded high-resolution charts, full task logs with individual earnings, and formal Employee & Manager signature lines.
 
 <a href="images/time-sheet.webp" target="_blank" rel="noopener noreferrer">
   <img src="images/time-sheet.webp" width="100%" alt="Artush Time Tracker - Detailed timesheet view with logged tasks and total hours summary">
 </a>
 
 * **Structured Excel (.xlsx) & CSV Exports**  
-  Generate multi-tab Excel workbooks containing detailed task logs, project summary tables, and embedded column charts, or export clean CSV files for external ERP workflows.
+  Generate multi-tab Excel workbooks containing detailed task logs with hourly rates and calculated amounts, project summary tables, and embedded column charts, or export clean CSV files with dedicated rate and amount columns for external ERP workflows.
 
 * **Lightning-Fast Global Search (Ctrl+F)**  
   Search across all historic tasks by keyword, project, work type, requestor, tags, or rich notes with instant date-filtering.
@@ -323,7 +323,8 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **Timeline Canvas:** Displays your full workday with configurable working hours (e.g., 07:30 – 17:30).
 * **Smooth Zooming:** Use `Ctrl + Mouse Wheel`, `Ctrl++` / `Ctrl+-`, or click `Fit Day` (`Ctrl+0`) to scale your timeline comfortably.
 * **Task Management:** Double-click or click-and-drag to create new tasks; right-click to edit, copy, paste, or delete.
-* **Header Summary:** Real-time counters showing **Total Worked Hours**, **Billable Time**, and **Break / Unpaid Time** for the selected day.
+* **Header Summary:** Real-time counters showing **Total Worked Hours**, **Billable Time**, **Break / Unpaid Time**, and **Estimated Gross Revenue** (with multi-currency aggregation) for the selected day.
+* **Interactive Timeline Tooltips:** Hover over any task block to inspect its full billing status, applied hourly rate, and calculated monetary reward in real time.
 
 ### 2. Week View
 * **Comprehensive 7-Day Grid:** Displays all working days alongside configured work hours and weekend slots.
@@ -353,7 +354,7 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
   </a>
 
 ### 5. Statistics & Analytics
-* **Summary Metrics:** Instant computation of Total Logged Hours, Billable Time, Non-Billable Time, Breaks, and Estimated Gross Revenue.
+* **Summary Metrics:** Instant computation of Total Logged Hours, Billable Time, Non-Billable Time, Breaks, and Estimated Gross Revenue grouped by currency.
 * **Project & Activity Breakdowns:** Clean data tables showing total hours, billable percentages, and financial summaries per client.
 * **Interactive Chart Engine:**
   * **Pie Charts:** Project distribution and Work type share.
@@ -361,7 +362,8 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 
 ### 6. Settings & Administration
 * **Working Hours & Schedule:** Configure daily start/end hours and active business days (e.g., Mon–Fri or custom shifts).
-* **Projects & Rates:** Add, edit, or color-code client accounts with individual hourly rates and non-billable designations.
+* **Language & Default Currency:** Set application language and select default global currency (`Kč`, `EUR`, `USD`, `GBP`, `CHF`, or custom).
+* **Projects & Rates:** Add, edit, or color-code client accounts with individual hourly rates, custom project currencies, and non-billable designations.
 * **Activity Types:** Customize work categories (Software Development, Meetings, IT Support, Consulting) with Google-palette colors.
 * **Worker & Approver Profiles:** Set up employee name, department/ID, and supervisor name for automatic inclusion in exported timesheets.
 * **Public Holiday Manager:** Fetch official country holidays over the web, import JSON/CSV calendars, or log custom vacation dates.
@@ -374,17 +376,17 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 Export your work logs accurately with versatile filtering (by client, work type, tag, billable status, or custom query):
 
 ### 1. Professional PDF Timesheet Reports 📄
-* **Executive Overview:** Clear report title, specified date range, worker identification, and project metadata.
+* **Executive Overview:** Clear report title, specified date range, worker identification, project metadata, and **Total Invoiced Amount** (with multi-currency support).
 * **Embedded Analytics Charts:** Include pie charts (project breakdown), daily bar charts, or both directly inside the document.
-* **Detailed Work Log:** Structured table listing date, time slot, duration, project, activity type, and billable status.
+* **Detailed Work Log:** Structured table listing date, time slot, duration, title, project, activity type, billable status, and **individual task earnings**.
 * **Formal Sign-Off Block:** Pre-formatted signature and approval lines for contractor/employee and managing approver.
 
 ### 2. Microsoft Excel Workbooks (`.xlsx`) 📊
-* **Sheet 1 (Detailed Timesheet):** Clean chronological entries with date, start/end times, project name, activity, submitter, tags, and duration.
+* **Sheet 1 (Detailed Timesheet):** Clean chronological entries with date, start/end times, project name, activity, submitter, tags, duration, **hourly rate**, and **calculated amount**.
 * **Sheet 2 (Project Summary & Chart):** Automated summary aggregation by project paired with an Excel native column chart.
 
 ### 3. Standard CSV Spreadsheets (`.csv`) 📋
-* UTF-8 encoded with standard semicolon delimiters for frictionless import into QuickBooks, SAP, Xero, Google Sheets, or custom SQL databases.
+* Semicolon-delimited UTF-8 format featuring dedicated **Rate** and **Amount** columns for frictionless import into QuickBooks, Xero, FreshBooks, SAP, Pohoda, Money S3, or custom SQL databases.
 
 ---
 
@@ -396,6 +398,7 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 | :--- | :---: | :---: |
 | **Unlimited Time Logging & Tasks** | ✅ Yes | ✅ Yes |
 | **Unlimited Projects & Clients** | ✅ Yes | ✅ Yes |
+| **Flexible Hourly Rates, Currencies & Task Overrides** | ✅ Yes | ✅ Yes |
 | **Commercial & Personal Usage** | ✅ Permitted | ✅ Permitted |
 | **100% Offline & Zero Cloud Lock-in** | ✅ Yes | ✅ Yes |
 | **Day, Week & Month Calendar Views** | ✅ Yes | ✅ Yes |
