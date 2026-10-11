@@ -180,17 +180,11 @@ If you have questions regarding your license, activation issues, or need technic
 ---
 
 ## Need Help?
-Search the documentation pages directly or jump back to the main [Complete Documentation Index](/index.html#complete-documentation-index).
+Search the documentation pages directly or jump back to the main [Complete Documentation Index](/index.html).
 
 ---
 
 [← Back to ArtushVision Time Tracker Home](https://timetracker.artushfoto.eu)
-
-[⭐ User Reviews & Testimonials](/docs/timetracker-reviews.html)
-
-[❓ Frequently Asked Questions (FAQ)](/docs/faq.html)
-
-[💬 Support, Bugs & Community Forum](https://github.com/Artushfoto/ArtushVision-TimeTracker/discussions)
 
 ---
 
