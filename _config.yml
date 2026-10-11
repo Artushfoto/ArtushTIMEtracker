@@ -1,3 +1,6 @@
+name: "Artush Time Tracker"
+title: false
+
 defaults:
   - scope:
       path: ""
