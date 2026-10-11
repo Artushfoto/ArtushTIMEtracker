@@ -208,11 +208,12 @@ h1 { text-align: center; }
 
 # Artush Time Tracker
 
-<div style="width: 100%; max-width: 1200px; margin: 0 auto 20px auto; background: transparent; line-height: 0; text-align: center;">
-  <object type="image/svg+xml" data="Artush_Time_Tracker.svg" title="Artush Time Tracker" style="width: 180px; height: 180px; display: inline-block; border: none; margin: 0 auto; padding: 0; pointer-events: auto !important;">
-    <img src="Artush_Time_Tracker.svg" alt="Artush Time Tracker" style="width: 180px; height: 180px; display: inline-block;" />
+<div style="width: 100%; max-width: 1200px; margin: 0 auto 20px auto; border: 1px solid #333; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); overflow: hidden; background-color: #0d1117; line-height: 0;">
+  <object type="image/svg+xml" data="time-tracker.svg" title="ArtushVision Time Tracker Features - Visual Timelines and Drag-and-Drop Scheduling" aria-label="ArtushVision Time Tracker Features - Visual Timelines and Drag-and-Drop Scheduling" style="width: 100%; height: auto; aspect-ratio: 1200 / 630; display: block; pointer-events: auto !important; outline: none; border: none; margin: 0; padding: 0;">
+    <img src="time-tracker.svg" alt="ArtushVision Time Tracker Features - Visual Timelines, Drag-and-Drop Scheduling, Project Rates, and PDF Timesheets" />
   </object>
 </div>
+
 
 **Fast, 100% offline desktop work log, time tracker, and billing report generator.**
 
