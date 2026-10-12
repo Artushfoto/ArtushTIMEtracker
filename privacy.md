@@ -12,6 +12,10 @@ description: "Privacy Policy for Artush Time Tracker - 100% offline desktop time
 
 ---
 
+[← Back to Artush Time Tracker](index.html)
+
+---
+
 ### 1. Overview & Privacy Philosophy
 **Artush Time Tracker** is designed with a strict **Privacy-First (Zero-Cloud)** philosophy. We believe that your working habits, client names, billing rates, project earnings, and task logs are confidential and belong solely to you.
 
