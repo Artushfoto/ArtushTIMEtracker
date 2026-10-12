@@ -46,3 +46,30 @@ If you have any questions or feedback regarding this Privacy Policy, please cont
 
 * **Email:** [support@artushfoto.eu](mailto:support@artushfoto.eu)
 * **Website:** [https://timetracker.artushfoto.eu](https://timetracker.artushfoto.eu)
+
+---
+
+### Privacy, Permissions & Security
+
+* **100% Offline Operation:** All database records, clients, rates, and notes remain strictly on your local disk (`tracker_data.db`).
+* **Zero Telemetry:** The application contains no background analytics scripts, telemetry beacons, or third-party tracking cookies.
+* **Network Usage:** The application accesses the internet exclusively upon direct user action (e.g., downloading public holiday calendars or verifying a Polar.sh license key).
+
+---
+
+### Developer & Legal Information
+
+* **Developer & Publisher:** Zdeněk Malý
+* **Business ID (IČO):** 68031751
+* **Registered Address:** Puklice 127, 588 31, Czech Republic, European Union
+* **Business Registry:** Registered in the Trade Licensing Register of the Czech Republic
+* **Customer Support & Inquiries:** [support@artushfoto.eu](mailto:support@artushfoto.eu)
+* **Official Website & Photography Portfolio:** [https://artushfoto.eu](https://artushfoto.eu)
+
+**Dispute Resolution:**  
+The European Commission provides an online platform for out-of-court dispute resolution within the EU: [EU Consumer Redress Portal](https://ec.europa.eu/consumers/odr). For customers in the Czech Republic, the competent body for out-of-court settlement of consumer disputes is the Czech Trade Inspection Authority (*Česká obchodní inspekce*): [www.coi.cz](https://www.coi.cz).
+
+---
+
+*Artush Time Tracker — precise time tracking, intuitive scheduling, and effortless client billing.*
+
