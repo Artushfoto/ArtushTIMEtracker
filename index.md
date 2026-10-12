@@ -497,17 +497,24 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 
 ## Installation & System Requirements
 
-* **Operating System:** Windows 10 / Windows 11 (64-bit).
+* **Operating System:** Windows 10 / Windows 11 (64-bit), Linux (Ubuntu, Debian, Mint, Fedora, Arch - 64-bit). *(macOS compatible via Python/PySide6).*
 * **Disk Space:** Less than 100 MB.
-* **Dependencies:** 100% self-contained application, zero external database servers, runtimes, or cloud dependencies required.
+* **Dependencies:** 100% self-contained application — zero external database servers, runtimes, or cloud dependencies required.
 
-### Choose Your Preferred Setup:
+### How to Install and Launch:
 
-* **Standard Windows Installer (`.exe`):**
-  Recommended for most users. Run `ArtushTimeTracker_Setup_v1.0.exe` for a standard guided setup. Automatically creates Desktop and Start Menu shortcuts and registers a clean uninstaller. Safe updates preserve your existing database and settings.
+* **Windows Installer (`.exe`):**
+  Download and run `ArtushTimeTracker_Setup_v1.0.exe` for a standard guided setup. Automatically creates Desktop and Start Menu shortcuts and registers a clean uninstaller. Safe updates preserve your existing database and settings.
 
-* **Portable Edition (`.zip`):**
-  Ideal for USB flash drives, restricted corporate PCs, or running without administrator privileges. Simply extract `Artush_Time_Tracker_portable_1.0.zip` into any folder and launch `ArtushTimeTracker.exe`. Leaves no traces in the Windows Registry and keeps everything completely self-contained.
+* **Windows Portable Edition (`.zip`):**
+  Ideal for USB flash drives or running without administrator privileges. Extract `Artush_Time_Tracker_portable_1.0.zip` into any folder and launch `ArtushTimeTracker.exe`. Requires no installation and makes no changes to the Windows Registry.
+
+* **Linux Standalone Package (`.tar.gz`):**
+  Self-contained 64-bit Linux distribution. Extract the archive and launch the executable from your terminal or file manager:
+  ```bash
+  tar -xzf Artush_Time_Tracker_Linux_x86_64.tar.gz
+  cd ArtushTimeTracker
+  ./ArtushTimeTracker
 
 ---
 
