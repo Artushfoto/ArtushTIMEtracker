@@ -225,6 +225,8 @@ h1 { text-align: center; }
     <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
   </a>
 
+![alt text](<_layouts /images/stats.webp>)
+
 ---
 
 ## How Does Artush Time Tracker Work?
