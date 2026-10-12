@@ -497,10 +497,17 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 
 ## Installation & System Requirements
 
-* **Operating System:** Windows 10 / Windows 11 (64-bit). *(Linux & macOS builds compatible via Python/PySide6).*
+* **Operating System:** Windows 10 / Windows 11 (64-bit). *(Cross-platform compatibility for Linux & macOS via Python/PySide6 source).*
 * **Disk Space:** Less than 100 MB.
-* **Dependencies:** Self-contained executable — no complex runtime setup or database servers required.
-* **Installation:** Extract the application package into your preferred folder and launch `Artush_Time_Tracker.exe` (or run `run.bat`).
+* **Dependencies:** 100% self-contained application — zero external database servers, runtimes, or cloud dependencies required.
+
+### Choose Your Preferred Setup:
+
+* **Standard Windows Installer (`.exe`):**
+  Recommended for most users. Run `ArtushTimeTracker_Setup_v1.0.exe` for a standard guided setup. Automatically creates Desktop and Start Menu shortcuts and registers a clean uninstaller. Safe updates preserve your existing database and settings.
+
+* **Portable Edition (`.zip`):**
+  Ideal for USB flash drives, restricted corporate PCs, or running without administrator privileges. Simply extract `Artush_Time_Tracker_portable_1.0.zip` into any folder and launch `ArtushTimeTracker.exe`. Leaves no traces in the Windows Registry and keeps everything completely self-contained.
 
 ---
 
