@@ -4,7 +4,7 @@ title: "Privacy Policy | Artush Time Tracker"
 description: "Privacy Policy for Artush Time Tracker - 100% offline desktop time tracking, zero telemetry, and complete local data ownership."
 ---
 
-# Privacy Policy — Artush Time Tracker
+# Privacy Policy - Artush Time Tracker
 
 **Last Updated:** October 12, 2026  
 **Effective Date:** January 1, 2026  
