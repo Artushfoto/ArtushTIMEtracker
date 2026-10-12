@@ -526,6 +526,10 @@ Lightweight, ad-free mobile GPS track logger for photographers and outdoor photo
 * **Zero Telemetry:** The application contains no background analytics scripts, telemetry beacons, or third-party tracking cookies.
 * **Network Usage:** The application accesses the internet exclusively upon direct user action (e.g., downloading public holiday calendars or verifying a Polar.sh license key).
 
+---
+
+[🔒 Privacy Policy](privacy.html)
+
 [📷 Developer's Photography Portfolio: artushfoto.eu](https://artushfoto.eu)
 
 ---

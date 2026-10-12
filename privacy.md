@@ -71,5 +71,8 @@ The European Commission provides an online platform for out-of-court dispute res
 
 ---
 
+[← Back to Artush Time Tracker](index.html)
+
+---
 *Artush Time Tracker — precise time tracking, intuitive scheduling, and effortless client billing.*
 
