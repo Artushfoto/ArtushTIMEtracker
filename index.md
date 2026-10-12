@@ -219,7 +219,7 @@ h1 { text-align: center; }
 
 **Fast, 100% offline desktop work log, live stopwatch time tracker, and professional billing report generator.**
 
-**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload with high-precision live stopwatches, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, mirror your backups automatically to cloud storage, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
+**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload with high-precision live stopwatches, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, mirror your backups automatically to cloud storage, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats without cloud subscriptions, mandatory logins, or third-party telemetry.
 
   <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
     <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
