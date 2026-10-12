@@ -506,11 +506,58 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 
 ## Links & Downloads
 
-* **Artush Time Tracker (Desktop Application for Windows)**
+**Artush Time Tracker (Desktop Application for Windows)**
 
-[**Download Artush Time Tracker for Windows (Free Version)**](https://github.com) *(Latest Stable Release)*
+[**Download Artush Time Tracker for Windows from GitHub (Free Version)**](https://github.com/Artushfoto/ArtushTime-Tracker/releases/) *(Latest Stable Release)*
 
-[**Buy Perpetual PRO License for €5.99**](https://buy.polar.sh/polar_cl_XeIcjrX0VuAY1mG4nZkEt1nCJCZyCvpKujQ1k1wTiCW)
+---
+
+<table style="width: 100%; display: table; border-collapse: collapse; margin-top: 20px;">
+  <tr>
+    <th style="text-align: center; padding: 25px 15px; background-color: rgba(0, 164, 239, 0.08); border: 1px solid rgba(0, 164, 239, 0.3); border-radius: 6px;">
+      <!-- Status Badge / Button -->
+      <div style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 100%; max-width: 420px; font-size: 1.05em; font-weight: 600; padding: 14px 20px; margin: 0 auto; background: #ffffff; border: 1px solid #00A4EF; border-radius: 6px; color: #1a1a1a; box-shadow: 0 2px 4px rgba(0,0,0,0.04);">
+        <!-- Microsoft Logo SVG -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;">
+          <path d="M1 1H10.5V10.5H1V1Z" fill="#F25022"/>
+          <path d="M13.5 1H23V10.5H13.5V1Z" fill="#7FBA00"/>
+          <path d="M1 13.5H10.5V23H1V13.5Z" fill="#00A4EF"/>
+          <path d="M13.5 13.5H23V23H13.5V13.5Z" fill="#FFB900"/>
+        </svg>
+        <span>Microsoft Store – Certification in Progress</span>
+      </div>
+    </th>
+  </tr>
+  <tr>
+    <td style="text-align: center; padding: 15px 10px 5px 10px;">
+      <b>Direct download via Microsoft Store coming very soon</b>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; padding: 5px 8px 15px 8px; font-size: 0.9em; color: #666;">
+      Under review &bull; Automatic background updates &bull; Certified &amp; verified by Microsoft
+    </td>
+  </tr>
+</table>
+
+
+<table style="width: 100%; display: table; border-collapse: collapse; margin-top: 20px;">
+  <tr>
+    <th style="text-align: center; padding: 25px 15px; background-color: rgba(45, 164, 78, 0.1); border: 1px solid rgba(45, 164, 78, 0.3); border-radius: 6px;">
+      <a href="https://buy.polar.sh/polar_cl_XeIcjrX0VuAY1mG4nZkEt1nCJCZyCvpKujQ1k1wTiCW" title="Proceed to secure checkout for Artush Time Tracker" class="btn btn-success" style="width: 100%; max-width: 400px; font-size: 1.1em; padding: 15px; margin: 0 auto; display: inline-block; text-decoration: none;">👉 CLICK TO BUY - Secure Checkout</a>
+    </th>
+  </tr>
+  <tr>
+    <td style="text-align: center; padding: 15px 10px 5px 10px;">
+      <b>Perpetual PRO License - Only €5.99</b> (+ local VAT)
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; padding: 5px 8px 15px 8px; font-size: 0.9em; color: #666;">
+      One-time payment &bull; Lifetime access &bull; Microsoft Store approval currently in progress
+    </td>
+  </tr>
+</table>
 
 ---
 
