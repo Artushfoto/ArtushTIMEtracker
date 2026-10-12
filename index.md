@@ -225,8 +225,6 @@ h1 { text-align: center; }
     <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
   </a>
 
-![alt text](<_layouts /images/stats.webp>)
-
 ---
 
 ## How Does Artush Time Tracker Work?
@@ -355,6 +353,10 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **In-Flight Editing (`✎`):** Click the edit icon during active recording to assign notes, tags, or projects and choose *Apply Changes & Continue* without stopping the clock, or *Stop & Save* when finished.
 * **Discard Protection (`✕`):** Safely discard accidental timer starts with confirmation safeguards (>30s) to prevent losing intentional sessions.
 * **Language Switcher with Visual Flags:** Quick-switch between 19 languages directly from the top bar with visual flag icons (e.g., `[ 🇨🇿 CZ ▾ ]` or `[ 🇺🇸 EN ▾ ]`).
+
+<a href="images/recording-work.webp" target="_blank" rel="noopener noreferrer">
+  <img src="images/recording-work.webp" width="100%" alt="Artush Time Tracker - Recording work session with active timer">
+</a>
 
 ### 2. Day View
 * **Timeline Canvas:** Displays your full workday with configurable working hours (e.g., 07:30 – 17:30).
