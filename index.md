@@ -497,9 +497,9 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 
 ## Installation & System Requirements
 
-* **Operating System:** Windows 10 / Windows 11 (64-bit). *(Cross-platform compatibility for Linux & macOS via Python/PySide6 source).*
+* **Operating System:** Windows 10 / Windows 11 (64-bit).
 * **Disk Space:** Less than 100 MB.
-* **Dependencies:** 100% self-contained application — zero external database servers, runtimes, or cloud dependencies required.
+* **Dependencies:** 100% self-contained application, zero external database servers, runtimes, or cloud dependencies required.
 
 ### Choose Your Preferred Setup:
 
