@@ -217,14 +217,13 @@ h1 { text-align: center; }
 
 ---
 
-**Fast, 100% offline desktop work log, time tracker, and billing report generator.**
+**Fast, 100% offline desktop work log, live stopwatch time tracker, and professional billing report generator.**
 
-**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
+**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload with high-precision live stopwatches, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, mirror your backups automatically to cloud storage, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
 
   <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
     <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
   </a>
-
 
 ---
 
@@ -232,11 +231,11 @@ h1 { text-align: center; }
 
 **Take full control of your working hours, project billing, and client timesheets in three easy steps:**
 
-### 1. Plan & Log Your Daily Work
-Add work blocks quickly across intuitive **Day**, **Week**, or **Month** views. Select the client project, specify the activity type, mark tasks as billable or non-billable, and take advantage of automatic hourly rate calculation with custom rate overrides. Need to log an unpaid lunch or break? Simply mark it to exclude it from your work hours with a single click.
+### 1. Start Tracking Instantly or Plan Visually
+Begin logging immediately with the **One-Click Record Action (`▶ Start` / `⏹ Save`)** located right in the top navigation bar, or visually create tasks on the interactive **Day**, **Week**, or **Month** timelines. Select a client project and activity type, or simply type a task title for spontaneous standalone tasks without picking a project. Mark entries as billable or non-billable, and take advantage of automatic hourly rate calculation with custom rate overrides. Need to record an unpaid lunch or break? Simply check the box to exclude it from your productive work hours with one click.
 
 ### 2. Prevent Scheduling Conflicts Automatically
-Artush Time Tracker features an intelligent collision protection engine. If a newly created task or dragged time block overlaps with an existing appointment, the system immediately flags the conflict and suggests optimal start and end times to fit your schedule without tedious recalculation.
+Artush Time Tracker features an intelligent collision protection engine. If a newly created task, live recorded block, or dragged time entry overlaps with an existing appointment, the system immediately flags the conflict and suggests optimal start and end times to fit your schedule without tedious recalculation.
 
 ### 3. Generate Professional Client Timesheets & Invoices
 Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts, itemized earnings, and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
@@ -249,8 +248,8 @@ Unlike modern cloud trackers that store sensitive client names, financial rates,
 
 * **Your Data Stays on Your Machine:** Everything is stored locally in a secure SQLite database (`tracker_data.db`).
 * **Zero Telemetry & Zero Tracking:** No activity logs, tracking scripts, or analytics beacons leave your computer.
-* **Full Data Ownership & Safety Backups:** Built-in automatic rotating database backups on startup, paired with one-click full ZIP archive exports and instant restore with safety rollbacks.
-* **Instant Speed & No Latency:** Enjoy blazing-fast UI responsiveness and smooth zooming without relying on an active internet connection.
+* **Dual-Layer Data Protection & Automated Cloud Mirroring:** Enjoy the privacy of local storage combined with the safety of the cloud. In addition to local automatic rotating database backups on startup, Artush Time Tracker can automatically mirror every backup ZIP archive directly to your preferred cloud folder (OneDrive, Google Drive, Dropbox) or external network NAS / USB drive.
+* **Instant Speed & No Latency:** Enjoy blazing-fast UI responsiveness, smooth zooming, and instant search without relying on an active internet connection.
 
 ---
 
@@ -273,17 +272,48 @@ Whether you bill multiple external clients by the hour or track internal enginee
 
 Everything you need to master your schedule, track billable time, and generate flawless timesheets:
 
-* **Visual Calendar Timelines (Day, Week & Month Views)**  
-  Seamlessly navigate your schedule with responsive calendar layouts. Smoothly zoom the daily timeline from 50% to 300% (or use `Ctrl+0` to fit the whole workday on screen).
+* **One-Click Record Action & Real-Time "REC" Stopwatch**  
+  Always ready at the very top of your screen: start, stop, or discard time recording instantly using the primary **Record Action button (`▶ Start` / `⏹ Save`)** paired with a live digital stopwatch (`00:00:00`). While recording, your active task pulses live on the Day timeline as an expanding `● REC` block with a vibrant red indicator line, and real-time counters dynamically update your daily and weekly progress. Need to assign a project, add tags, or write notes while working? Open the in-flight editor (`✎` or double-click the pulsing `● REC` block) and select *Apply Changes & Continue* to update details seamlessly without interrupting the running clock.
 
-* **Intelligent Conflict & Overlap Protection**  
-  Never double-book yourself. The real-time collision detection system alerts you when tasks collide and offers one-click automatic adjustments to fit open slots.
+* **Crash-Resilient State Recovery**  
+  Never lose tracked time due to unexpected Windows restarts, system crashes, or power outages. The Quick-Timer continuously persists active timer state, start timestamp, and elapsed seconds in real time, automatically restoring your running session upon launching the app.
+
+* **Smart AFK & Idle Time Protection**  
+  Stepped away from your desk while a timer was running? The native Windows idle monitor detects inactivity without third-party dependencies and prompts you upon your return. Seamlessly choose to keep the logged time, deduct the idle duration, or automatically split the idle period into a separate unpaid break.
+
+* **Automated Cloud Drive & External NAS Mirroring**  
+  Never worry about hard drive failures or machine damage. With built-in Cloud Mirroring, every timestamped backup ZIP archive created on startup or on demand is automatically mirrored to your chosen folder — seamlessly syncing with **Microsoft OneDrive**, **Google Drive**, **Dropbox**, local network **NAS**, or an external **USB drive**.
+
+* **Global Multilingual Support (19 Languages with Flag Icons)**  
+  Artush Time Tracker is fully localized into **19 languages** with native names and visual flag icons directly in the top navigation bar and settings:  
+  **Čeština**, **English**, **Slovenčina**, **Deutsch**, **Polski**, **Español**, **Français**, **Italiano**, **Português**, **Русский**, **Українська**, **Magyar**, **Türkçe**, **Tiếng Việt**, **简体中文**, **日本語**, **한국어**, **العربية**, and **עברית**. Native Qt locales ensure calendar days, months, and numbers format naturally according to your region.
+
+* **Visual Calendar Timelines (Day, Week & Month Views)**  
+  Seamlessly navigate your schedule with responsive calendar layouts. Smoothly zoom the daily timeline from 50% to 300% (or press `Ctrl+0` to fit the whole workday on screen). Double-click or click-and-drag to create tasks, and grab top/bottom edge handles to adjust task durations with 15-minute snapping.
+
+* **Effortless Week Navigation with Shift + Mouse Wheel**  
+  Navigate through time with natural gestures: simply hold **`Shift + Mouse Wheel`** anywhere in the Week view (or use `Shift+Left` / `Shift+Right`) to flip forward and backward between weeks instantly. Seamless edge auto-scrolling lets you drag tasks across week boundaries with ease.
+
+* **Drag-and-Drop Task Moving & Instant Duplication (`Ctrl` Clone)**  
+  Reschedule work effortlessly by dragging tasks between days or time slots. Need to duplicate an existing entry? Simply hold **`Ctrl`** while dropping to clone the task instantly.
 
 * **Multi-Day Task Replication**  
   Quickly copy standing tasks or daily meetings across all selected workdays in the current week with a single click.
 
+* **Intelligent Conflict & Overlap Protection**  
+  Never double-book yourself. The real-time collision detection system alerts you when tasks collide and offers one-click automatic adjustments to fit open slots.
+
+* **Flexible Tasks Without Assigned Projects**  
+  Log quick ad-hoc tasks, personal reminders, or miscellaneous work with just a title and description, without being forced to pick a client or activity type.
+
 * **Flexible Billing Hierarchy, Multi-Currency & Task Rate Overrides**  
   Assign custom color codes, distinct hourly rates, and specific currencies (CZK, EUR, USD, GBP, CHF) to each client or project, or define non-billable internal work (0.00 rate). For special assignments, night shifts, emergency interventions, or flat-rate jobs, easily override the project rate directly inside the task dialog. A live interactive rate preview computes your estimated earnings on the fly as you adjust task times.
+
+* **System Tray Background Tracking & Smart Window Management**  
+  Keep timers ticking quietly in the Windows System Tray without cluttering your desktop. Configure the close button `[X]` to minimize directly to the tray or quit the application, with an optional prompt and "remember my choice" preference.
+
+* **Responsive Layout & Laptop-Optimized UI**  
+  Engineered for all screen sizes — from ultra-wide 4K workstations to compact 1080p laptops with Windows 125%/150% display scaling. Scrollable dialogs with permanently docked action bars guarantee controls never get pushed behind the Windows taskbar.
 
 * **Rich Text Notes & Task Metadata**  
   Add detailed documentation with rich text formatting (bold, italics), assign task requestors (*submitter*), and organize work using searchable `#tags`.
@@ -310,32 +340,42 @@ Everything you need to master your schedule, track billable time, and generate f
 * **Light & Dark Modern Themes**  
   Switch instantly between an elegant Dark Mode and a crisp Light Mode tailored for optimal readability during day or night work.
 
-* **Reliable ZIP Backup & Restore Center**  
-  Safeguard your data with automatic startup backups, manual timestamped ZIP archive exports, and pre-restore emergency snapshots.
-
 ---
 
 ## App Controls & Navigation
 
 Artush Time Tracker is organized into clean, dedicated modules accessible via the top navigation bar:
 
-### 1. Day View
+### 1. Quick-Timer Bar (Top Navigation Bar)
+* **One-Click Record Action (`▶ Start` / `⏹ Save`):** High-visibility primary action button to start recording immediately or finish and commit the logged task into your calendar.
+* **Live Digital Stopwatch Display:** Real-time ticking counter (`00:00:00`) showing exact elapsed time.
+* **Inline Task Setup:** Enter task descriptions and pick client projects or activity categories on the fly, or log standalone tasks without assignments.
+* **In-Flight Editing (`✎`):** Click the edit icon during active recording to assign notes, tags, or projects and choose *Apply Changes & Continue* without stopping the clock, or *Stop & Save* when finished.
+* **Discard Protection (`✕`):** Safely discard accidental timer starts with confirmation safeguards (>30s) to prevent losing intentional sessions.
+* **Language Switcher with Visual Flags:** Quick-switch between 19 languages directly from the top bar with visual flag icons (e.g., `[ 🇨🇿 CZ ▾ ]` or `[ 🇺🇸 EN ▾ ]`).
+
+### 2. Day View
 * **Timeline Canvas:** Displays your full workday with configurable working hours (e.g., 07:30 – 17:30).
+* **Live "REC" Visual Block:** Active recordings appear dynamically on the timeline in recording red with a ticking duration counter, live title, and a red current-time marker. Double-clicking the `● REC` block opens the live task editor directly.
 * **Smooth Zooming:** Use `Ctrl + Mouse Wheel`, `Ctrl++` / `Ctrl+-`, or click `Fit Day` (`Ctrl+0`) to scale your timeline comfortably.
-* **Task Management:** Double-click or click-and-drag to create new tasks; right-click to edit, copy, paste, or delete.
-* **Header Summary:** Real-time counters showing **Total Worked Hours**, **Billable Time**, **Break / Unpaid Time**, and **Estimated Gross Revenue** (with multi-currency aggregation) for the selected day.
+* **Fast Day Navigation:** Use `Alt + Left/Right` or `Shift + Left/Right` to jump between consecutive days.
+* **Task Management:** Double-click or click-and-drag to create new tasks; drag top/bottom edge handles to resize durations with 15-minute snapping; right-click to edit, replicate across days, or delete.
+* **Header Summary:** Real-time counters showing **Total Worked Hours**, **Billable Time**, **Break / Unpaid Time**, and **Estimated Gross Revenue** (with multi-currency aggregation), updated dynamically while timers record.
 * **Interactive Timeline Tooltips:** Hover over any task block to inspect its full billing status, applied hourly rate, and calculated monetary reward in real time.
 
-### 2. Week View
+### 3. Week View
 * **Comprehensive 7-Day Grid:** Displays all working days alongside configured work hours and weekend slots.
-* **Drag-and-Drop Scheduling:** Effortlessly move tasks between days and hours with instant collision feedback.
+* **Shift + Mouse Wheel Week Navigation:** Hold `Shift` and scroll your mouse wheel anywhere on the week canvas to flip backward and forward between weeks effortlessly. You can also use `Shift+Left` / `Shift+Right` or `Alt+Left` / `Alt+Right`.
+* **Drag-and-Drop Rescheduling & `Ctrl` Cloning:** Effortlessly move tasks between days and hours with instant collision feedback, or hold `Ctrl` while dragging to duplicate tasks.
+* **Edge Auto-Scrolling:** Dragging a task near the top or bottom edge of the timeline automatically scrolls the viewport smoothly.
+* **Live Week Tracker Badge:** Today's column dynamically displays `● REC +XXm` reflecting in-flight timer progress in real time.
 * **Batch Copy to Workdays:** Right-click any task to replicate it across all remaining business days of the week.
 
   <a href="images/week-view.webp" target="_blank" rel="noopener noreferrer">
     <img src="images/week-view.webp" width="100%" alt="Artush Time Tracker - Weekly timeline showing active tasks and tracked time">
   </a>
 
-### 3. Month View
+### 4. Month View
 * **Calendar Overview:** Quick visual orientation across every day of the month.
 * **Daily Totals & Holidays:** Highlights official public holidays, custom non-working days, and total logged hours for each date.
 * **One-Click Day Jump:** Click any calendar cell to instantly open and edit that specific day.
@@ -344,7 +384,7 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
     <img src="images/month-view.webp" width="100%" alt="Artush Time Tracker - Monthly overview of recorded activities and work hours">
   </a>
 
-### 4. Global Search (`Ctrl+F`)
+### 5. Global Search (`Ctrl+F`)
 * **Multi-Field Filtering:** Search through task titles, rich notes, tags (`#tag`), submitters, projects, and work types simultaneously.
 * **Time Range Selector:** Filter searches by *Current Week*, *Current Month*, *Current Year*, *All Time*, or a *Custom Date Range*.
 * **Direct Navigation:** Click **View Day →** next to any search result to open the day view at the exact time slot.
@@ -353,21 +393,41 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
     <img src="images/search-work.webp" width="100%" alt="Artush Time Tracker - Search in logged work by keywords and filters">
   </a>
 
-### 5. Statistics & Analytics
+### 6. Statistics & Analytics
 * **Summary Metrics:** Instant computation of Total Logged Hours, Billable Time, Non-Billable Time, Breaks, and Estimated Gross Revenue grouped by currency.
 * **Project & Activity Breakdowns:** Clean data tables showing total hours, billable percentages, and financial summaries per client.
 * **Interactive Chart Engine:**
   * **Pie Charts:** Project distribution and Work type share.
   * **Bar Charts:** Daily hours progression, project volume comparisons, and activity distribution.
 
-### 6. Settings & Administration
+### 7. Settings & Administration
 * **Working Hours & Schedule:** Configure daily start/end hours and active business days (e.g., Mon–Fri or custom shifts).
-* **Language & Default Currency:** Set application language and select default global currency (`Kč`, `EUR`, `USD`, `GBP`, `CHF`, or custom).
+* **AFK / Idle Detection Settings:** Configure inactivity threshold duration in minutes or toggle AFK monitoring on/off.
+* **System Tray & Window Close Behavior:** Choose default window close behavior (minimize to system tray vs. exit application).
+* **Language & Default Currency:** Choose from 19 languages with visual flag icons, and select default global currency (`Kč`, `EUR`, `USD`, `GBP`, `CHF`, or custom).
 * **Projects & Rates:** Add, edit, or color-code client accounts with individual hourly rates, custom project currencies, and non-billable designations.
 * **Activity Types:** Customize work categories (Software Development, Meetings, IT Support, Consulting) with Google-palette colors.
 * **Worker & Approver Profiles:** Set up employee name, department/ID, and supervisor name for automatic inclusion in exported timesheets.
 * **Public Holiday Manager:** Fetch official country holidays over the web, import JSON/CSV calendars, or log custom vacation dates.
-* **Backup & Restore Hub:** Export full ZIP archives, manage automatic backups, or restore past snapshots safely.
+* **Backup & Cloud Mirroring Hub:** Manage local automatic startup backups, export timestamped ZIP archives, or set up automatic mirroring to external cloud/NAS folders (OneDrive, Google Drive, Dropbox, local NAS, USB).
+
+---
+
+## Power-User Cheatsheet (Shortcuts & Gestures)
+
+| Action | Shortcut / Mouse Gesture | Context |
+| :--- | :--- | :--- |
+| **Start / Stop Timer (Record Action)** | Click `▶ Start` / `⏹ Save` | Top Quick-Timer Bar |
+| **Edit Active Timer In-Flight** | Click `✎` or double-click `● REC` block | Quick-Timer / Day Timeline |
+| **Flip Between Weeks** | **`Shift + Mouse Wheel`** (or `Shift + Left/Right`) | Week View |
+| **Zoom Timeline** | `Ctrl + Mouse Wheel` (or `Ctrl++` / `Ctrl+-`) | Day & Week Views |
+| **Fit Workday to Window** | `Ctrl + 0` | Day & Week Views |
+| **Jump to Previous / Next Day** | `Alt + Left/Right` (or `Shift + Left/Right`) | Day View |
+| **Duplicate / Clone Task** | Hold **`Ctrl`** while Dragging & Dropping | Day & Week Views |
+| **Resize Task Duration** | Drag top or bottom edge handles (15m snap) | Day View |
+| **Create New Task** | Click & drag vertically, or double-click blank space | Day View |
+| **Global Search** | `Ctrl + F` | Anywhere |
+| **Quick Language Switch** | Click flag dropdown in navbar (`[ 🇨🇿 CZ ▾ ]`) | Top Bar |
 
 ---
 
@@ -397,15 +457,20 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 | Feature / Capability | Free Edition (FREE) | Professional Edition (PRO) |
 | :--- | :---: | :---: |
 | **Unlimited Time Logging & Tasks** | ✅ Yes | ✅ Yes |
+| **Header Quick-Timer & Live REC Recording** | ✅ Yes | ✅ Yes |
+| **Smart AFK & Idle Detection** | ✅ Yes | ✅ Yes |
+| **19 Languages with Visual Flag Icons** | ✅ Yes | ✅ Yes |
+| **Automated Local & Cloud Mirroring Backups** | ✅ Yes | ✅ Yes |
 | **Unlimited Projects & Clients** | ✅ Yes | ✅ Yes |
 | **Flexible Hourly Rates, Currencies & Task Overrides** | ✅ Yes | ✅ Yes |
 | **Commercial & Personal Usage** | ✅ Permitted | ✅ Permitted |
 | **100% Offline & Zero Cloud Lock-in** | ✅ Yes | ✅ Yes |
 | **Day, Week & Month Calendar Views** | ✅ Yes | ✅ Yes |
+| **Shift + Wheel Week Navigation & Drag-and-Drop** | ✅ Yes | ✅ Yes |
 | **Collision Protection & Smart Adjustments** | ✅ Yes | ✅ Yes |
 | **PDF, Excel (.xlsx) & CSV Exports** | ✅ Full Access | ✅ Full Access |
 | **Analytics Charts & Revenue Estimates** | ✅ Full Access | ✅ Full Access |
-| **Holiday Downloads & ZIP Backups** | ✅ Full Access | ✅ Full Access |
+| **Holiday Downloads & ZIP Snapshots** | ✅ Full Access | ✅ Full Access |
 | **Instant Navigation (Zero Countdowns)** | 15s sponsor countdown on advanced modules | ⚡ Instant immediate access |
 | **Price** | **Free Forever** | **€5.99 (One-Time Perpetual License)** |
 
