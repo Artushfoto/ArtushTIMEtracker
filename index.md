@@ -535,10 +535,10 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 ### How to Install and Launch:
 
 * **Windows Installer (`.exe`):**
-  Download and run `ArtushTimeTracker_Setup_v1.0.exe` for a standard guided setup. Automatically creates Desktop and Start Menu shortcuts and registers a clean uninstaller. Safe updates preserve your existing database and settings.
+  Download and run `ArtushTimeTracker_Setup_v1.1.exe` for a standard guided setup. Automatically creates Desktop and Start Menu shortcuts and registers a clean uninstaller. Safe updates preserve your existing database and settings.
 
 * **Windows Portable Edition (`.zip`):**
-  Ideal for USB flash drives or running without administrator privileges. Extract `Artush_Time_Tracker_portable_1.0.zip` into any folder and launch `ArtushTimeTracker.exe`. Requires no installation and makes no changes to the Windows Registry.
+  Ideal for USB flash drives or running without administrator privileges. Extract `Artush_Time_Tracker_portable_1.1.zip` into any folder and launch `ArtushTimeTracker.exe`. Requires no installation and makes no changes to the Windows Registry.
 
 * **Linux Standalone Package (`.tar.gz`):**
   Self-contained 64-bit Linux distribution. Extract the archive and launch the executable from your terminal or file manager:
