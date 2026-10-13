@@ -647,7 +647,7 @@ Lightweight, ad-free mobile GPS track logger for photographers and outdoor photo
     window.dataLayer = window.dataLayer || [];
     window.gtag = function(){ dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-GWJ4NLYPWT');
+    gtag('config', 'G-H4FSFZTMXH');
   };
 
   document.addEventListener("DOMContentLoaded", function() {
