@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Free Time Tracker | 100% Offline Desktop Time Tracking & Billing"
-description: "Fast, privacy-first desktop time tracker and billing generator for freelancers and contractors. Interactive calendar views, analytics charts, and professional PDF/Excel export."
+description: "Fast, privacy-first desktop time tracker and billing generator for freelancers and contractors. Integrated Pomodoro focus timer, global hotkeys, instant Text/Markdown clipboard summaries, dynamic tray badges, interactive calendar views, analytics charts, and professional PDF/Excel export."
 ---
 
 <!-- Cookie Consent Styles and Script -->
@@ -219,7 +219,7 @@ h1 { text-align: center; }
 
 **Fast, 100% offline desktop work log, live stopwatch time tracker, and professional billing report generator.**
 
-**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload with high-precision live stopwatches, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, mirror your backups automatically to cloud storage, and generate executive-ready timesheets in PDF, Excel (.xlsx), and CSV formats without cloud subscriptions, mandatory logins, or third-party telemetry.
+**Artush Time Tracker** is an intuitive, privacy-first desktop application crafted for freelancers, software developers, IT administrators, consultants, and independent professionals. Track your daily workload with high-precision live stopwatches or an **integrated Pomodoro focus timer**, toggle tracking globally with **system hotkeys**, organize client projects with customizable hourly rates and multi-currency billing, eliminate time overlap collisions, mirror your backups automatically to cloud storage, and generate executive-ready timesheets in PDF, Excel (.xlsx), CSV, and **instant Plain Text / Markdown (.txt / .md)** formats — without cloud subscriptions, mandatory logins, or third-party telemetry.
 
   <a href="images/stats.webp" target="_blank" rel="noopener noreferrer">
     <img src="images/stats.webp" width="100%" alt="Artush Time Tracker - Detailed productivity statistics and tracked hours overview">
@@ -232,13 +232,13 @@ h1 { text-align: center; }
 **Take full control of your working hours, project billing, and client timesheets in three easy steps:**
 
 ### 1. Start Tracking Instantly or Plan Visually
-Begin logging immediately with the **One-Click Record Action (`▶ Start` / `⏹ Save`)** located right in the top navigation bar, or visually create tasks on the interactive **Day**, **Week**, or **Month** timelines. Select a client project and activity type, or simply type a task title for spontaneous standalone tasks without picking a project. Mark entries as billable or non-billable, and take advantage of automatic hourly rate calculation with custom rate overrides. Need to record an unpaid lunch or break? Simply check the box to exclude it from your productive work hours with one click.
+Begin logging immediately with the **One-Click Record Action (`▶ Start` / `⏹ Save`)** located right in the top navigation bar, hit your **Global System Hotkey (`Ctrl+Alt+S`)** from any app on your machine, activate the **Pomodoro focus timer**, or visually create tasks on the interactive **Day**, **Week**, or **Month** timelines. Select a client project and activity type, or simply type a task title for spontaneous standalone tasks without picking a project. Mark entries as billable or non-billable, and take advantage of automatic hourly rate calculation with custom rate overrides. Need to record an unpaid lunch or break? Simply check the box to exclude it from your productive work hours with one click.
 
 ### 2. Prevent Scheduling Conflicts Automatically
 Artush Time Tracker features an intelligent collision protection engine. If a newly created task, live recorded block, or dragged time entry overlaps with an existing appointment, the system immediately flags the conflict and suggests optimal start and end times to fit your schedule without tedious recalculation.
 
 ### 3. Generate Professional Client Timesheets & Invoices
-Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts, itemized earnings, and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, or standard **CSV files** ready for your accounting system.
+Filter your workload by project, date range, activity type, or custom tags. Export polished **PDF timesheets** complete with analytics charts, itemized earnings, and official Sign-Off signature sections, structured **Excel spreadsheets (.xlsx)** with native column charts and summary sheets, standard **CSV files** ready for your accounting system, or **instant Plain Text / Markdown reports (.txt / .md)** with **1-click clipboard copy** for quick email updates, Slack channels, or invoicing notes.
 
 ---
 
@@ -274,6 +274,21 @@ Everything you need to master your schedule, track billable time, and generate f
 
 * **One-Click Record Action & Real-Time "REC" Stopwatch**  
   Always ready at the very top of your screen: start, stop, or discard time recording instantly using the primary **Record Action button (`▶ Start` / `⏹ Save`)** paired with a live digital stopwatch (`00:00:00`). While recording, your active task pulses live on the Day timeline as an expanding `● REC` block with a vibrant red indicator line, and real-time counters dynamically update your daily and weekly progress. Need to assign a project, add tags, or write notes while working? Open the in-flight editor (`✎` or double-click the pulsing `● REC` block) and select *Apply Changes & Continue* to update details seamlessly without interrupting the running clock.
+
+* **🍅 Integrated Pomodoro Focus Timer & Work/Break Intervals**  
+  Built directly into the Quick-Timer bar for maximum productivity. Seamlessly split your day into focused sprints: configurable focus work (e.g. 25 min), refreshing short breaks (e.g. 5 min), and restorative long breaks (e.g. 15 min after 4 completed cycles). Features optional auto-starting of breaks, gentle audio chimes, native desktop notifications on phase transitions, and quick skip controls (`☕ Skip to Break` / `🍅 Skip to Work`).
+
+* **⌨️ Global System-Wide Hotkey (Start / Stop From Anywhere)**  
+  Control your tracker instantly without ever leaving your IDE, browser, or terminal. Press a customizable global shortcut (e.g. **`Ctrl+Alt+S`**, **`Win+Alt+S`**, **`Ctrl+Shift+S`**, or **`F10`**) to toggle time recording on and off from any application, even when Artush Time Tracker is minimized quietly in the Windows System Tray.
+
+* **📋 Instant Plain Text & Markdown Timesheets with 1-Click Clipboard Copy**  
+  Need to send your client a quick email update, post your daily standup in Slack or Microsoft Teams, or paste a summary into an invoice? Export clean, lightweight **Text (.txt)** or **Markdown (.md)** timesheets instantly. With the dedicated **"📋 Copy to Clipboard"** button, your full daily or period report is in your clipboard in a fraction of a second — zero file browsing, zero manual Ctrl+A / Ctrl+C. Fully localized in all 19 supported languages.
+
+* **🔔 Powerhouse System Tray: Dynamic Badges, Rich Tooltips & Quick Actions**  
+  Keep track of your day without opening the main window:
+  * **Dynamic Tray Icon Badges:** Shows live color-coded status badges directly on your Windows taskbar icon — vibrant red (`REC`) when tracking, crimson during Pomodoro focus work, soothing green during breaks, and clean when idle.
+  * **Rich Hover Tooltips:** Hover your mouse over the clock icon to see the running task, elapsed time, client name, Pomodoro phase/countdown, total hours worked today with percentage of your 8h daily goal, and today's earned revenue.
+  * **Right-Click Action Menu:** Instantly start/stop the timer, skip Pomodoro phases, jump to today's schedule, launch your **last 4 recent tasks with 1 click**, or trigger **"📋 Copy Today's Timesheet"** with a confirmation balloon alert.
 
 * **Crash-Resilient State Recovery**  
   Never lose tracked time due to unexpected Windows restarts, system crashes, or power outages. The Quick-Timer continuously persists active timer state, start timestamp, and elapsed seconds in real time, automatically restoring your running session upon launching the app.
@@ -312,8 +327,8 @@ Everything you need to master your schedule, track billable time, and generate f
 * **System Tray Background Tracking & Smart Window Management**  
   Keep timers ticking quietly in the Windows System Tray without cluttering your desktop. Configure the close button `[X]` to minimize directly to the tray or quit the application, with an optional prompt and "remember my choice" preference.
 
-* **Responsive Layout & Laptop-Optimized UI**  
-  Engineered for all screen sizes — from ultra-wide 4K workstations to compact 1080p laptops with Windows 125%/150% display scaling. Scrollable dialogs with permanently docked action bars guarantee controls never get pushed behind the Windows taskbar.
+* **🛡️ Scroll-Safe Settings & Laptop-Optimized UI**  
+  Engineered for all screen sizes — from ultra-wide 4K workstations to compact 1080p laptops with Windows 125%/150% display scaling. Intelligent mouse wheel protection guarantees that scrolling through settings never accidentally alters your selected language, theme, currency, or timers. Settings dropdowns adjust strictly via deliberate mouse clicks, while wheel scrolls flow smoothly to the parent viewport.
 
 * **Rich Text Notes & Task Metadata**  
   Add detailed documentation with rich text formatting (bold, italics), assign task requestors (*submitter*), and organize work using searchable `#tags`.
@@ -349,6 +364,7 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 ### 1. Quick-Timer Bar (Top Navigation Bar)
 * **One-Click Record Action (`▶ Start` / `⏹ Save`):** High-visibility primary action button to start recording immediately or finish and commit the logged task into your calendar.
 * **Live Digital Stopwatch Display:** Real-time ticking counter (`00:00:00`) showing exact elapsed time.
+* **Integrated Pomodoro Focus Mode:** Toggle the Pomodoro cycle directly from the bar. Displays live remaining phase countdowns (`🍅 24:59` work / `☕ 04:59` break) with one-click skip buttons.
 * **Inline Task Setup:** Enter task descriptions and pick client projects or activity categories on the fly, or log standalone tasks without assignments.
 * **In-Flight Editing (`✎`):** Click the edit icon during active recording to assign notes, tags, or projects and choose *Apply Changes & Continue* without stopping the clock, or *Stop & Save* when finished.
 * **Discard Protection (`✕`):** Safely discard accidental timer starts with confirmation safeguards (>30s) to prevent losing intentional sessions.
@@ -406,6 +422,8 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 
 ### 7. Settings & Administration
 * **Working Hours & Schedule:** Configure daily start/end hours and active business days (e.g., Mon–Fri or custom shifts).
+* **Pomodoro Focus Preferences:** Fine-tune work sprint duration (1–120 min), short breaks (1–60 min), long breaks (1–90 min), auto-starting breaks, audio chimes, and system notifications.
+* **Global Hotkey Settings:** Enable/disable global tracking and select your preferred system shortcut (`Ctrl+Alt+S`, `Win+Alt+S`, `Ctrl+Shift+S`, `Ctrl+Alt+T`, `F10`, `F12`).
 * **AFK / Idle Detection Settings:** Configure inactivity threshold duration in minutes or toggle AFK monitoring on/off.
 * **System Tray & Window Close Behavior:** Choose default window close behavior (minimize to system tray vs. exit application).
 * **Language & Default Currency:** Choose from 19 languages with visual flag icons, and select default global currency (`Kč`, `EUR`, `USD`, `GBP`, `CHF`, or custom).
@@ -413,7 +431,7 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 * **Activity Types:** Customize work categories (Software Development, Meetings, IT Support, Consulting) with Google-palette colors.
 * **Worker & Approver Profiles:** Set up employee name, department/ID, and supervisor name for automatic inclusion in exported timesheets.
 * **Public Holiday Manager:** Fetch official country holidays over the web, import JSON/CSV calendars, or log custom vacation dates.
-* **Backup & Cloud Mirroring Hub:** Manage local automatic startup backups, export timestamped ZIP archives, or set up automatic mirroring to external cloud/NAS folders (OneDrive, Google Drive, Dropbox, local NAS, USB).
+* **Backup & Cloud Mirroring Hub:** Manage local automatic startup backups, export timestamped ZIP archives, or set up automatic mirroring to external cloud/NAS folders (OneDrive, Google Drive, Dropbox, local NAS, USB) inside a smooth scrollable workspace.
 
 ---
 
@@ -421,8 +439,12 @@ Artush Time Tracker is organized into clean, dedicated modules accessible via th
 
 | Action | Shortcut / Mouse Gesture | Context |
 | :--- | :--- | :--- |
+| **Global Start / Stop Tracker** | **`Ctrl + Alt + S`** (or customized hotkey) | **System-Wide (Any App / Minimized)** |
 | **Start / Stop Timer (Record Action)** | Click `▶ Start` / `⏹ Save` | Top Quick-Timer Bar |
 | **Edit Active Timer In-Flight** | Click `✎` or double-click `● REC` block | Quick-Timer / Day Timeline |
+| **Skip Pomodoro Phase** | Click `☕` / `🍅` button or Tray menu | Quick-Timer Bar / System Tray |
+| **Copy Today's Timesheet (TXT)** | Right-click Tray icon → `Copy Today's Timesheet` | Windows System Tray |
+| **Quick Start Recent Task** | Right-click Tray icon → `Recent Tasks` (4 recent) | Windows System Tray |
 | **Flip Between Weeks** | **`Shift + Mouse Wheel`** (or `Shift + Left/Right`) | Week View |
 | **Zoom Timeline** | `Ctrl + Mouse Wheel` (or `Ctrl++` / `Ctrl+-`) | Day & Week Views |
 | **Fit Workday to Window** | `Ctrl + 0` | Day & Week Views |
@@ -452,6 +474,12 @@ Export your work logs accurately with versatile filtering (by client, work type,
 ### 3. Standard CSV Spreadsheets (`.csv`) 📋
 * Semicolon-delimited UTF-8 format featuring dedicated **Rate** and **Amount** columns for frictionless import into QuickBooks, Xero, FreshBooks, SAP, Pohoda, Money S3, or custom SQL databases.
 
+### 4. Instant Plain Text & Markdown Reports (`.txt` / `.md`) 📝
+* **Zero Waiting & Zero Overhead:** Opens in a few milliseconds in Notepad, VS Code, or any text editor — no waiting for heavy PDF readers or Excel to launch.
+* **1-Click Clipboard Copying:** A dedicated **"📋 Copy to Clipboard"** button places the clean, structured report directly into your clipboard for immediate pasting into emails, Slack, Microsoft Teams, GitHub, or billing software.
+* **Clean Markdown Formatting:** Structured headers, client summaries, billable monetary totals, and detailed itemized task bullet points.
+* **100% Native Localization:** Fully formatted and translated into all 19 supported languages.
+
 ---
 
 ## Fair & Transparent Licensing (Free vs. PRO)
@@ -462,6 +490,9 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 | :--- | :---: | :---: |
 | **Unlimited Time Logging & Tasks** | ✅ Yes | ✅ Yes |
 | **Header Quick-Timer & Live REC Recording** | ✅ Yes | ✅ Yes |
+| **Integrated Pomodoro Focus Timer** | ✅ Yes | ✅ Yes |
+| **Global System-Wide Hotkey (Start/Stop)** | ✅ Yes | ✅ Yes |
+| **Dynamic Tray Badges & Quick Launch Menu** | ✅ Yes | ✅ Yes |
 | **Smart AFK & Idle Detection** | ✅ Yes | ✅ Yes |
 | **19 Languages with Visual Flag Icons** | ✅ Yes | ✅ Yes |
 | **Automated Local & Cloud Mirroring Backups** | ✅ Yes | ✅ Yes |
@@ -472,7 +503,7 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 | **Day, Week & Month Calendar Views** | ✅ Yes | ✅ Yes |
 | **Shift + Wheel Week Navigation & Drag-and-Drop** | ✅ Yes | ✅ Yes |
 | **Collision Protection & Smart Adjustments** | ✅ Yes | ✅ Yes |
-| **PDF, Excel (.xlsx) & CSV Exports** | ✅ Full Access | ✅ Full Access |
+| **PDF, Excel (.xlsx), CSV & TXT/Markdown Exports** | ✅ Full Access | ✅ Full Access |
 | **Analytics Charts & Revenue Estimates** | ✅ Full Access | ✅ Full Access |
 | **Holiday Downloads & ZIP Snapshots** | ✅ Full Access | ✅ Full Access |
 | **Instant Navigation (Zero Countdowns)** | 15s sponsor countdown on advanced modules | ⚡ Instant immediate access |
@@ -515,6 +546,7 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
   tar -xzf Artush_Time_Tracker_Linux_x86_64.tar.gz
   cd ArtushTimeTracker
   ./ArtushTimeTracker
+  ```
 
 ---
 
@@ -578,7 +610,7 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 ### Related Software
 
 [**ArtushVision AI – Professional Metadata Automation & Geotagging**](https://vision.artushfoto.eu)  
-The Ultimate AI-Powered Workstation for Microstock Metadata, SEO Optimization, and Batch FTP Distribution with Built-in Market Intelligence..
+The Ultimate AI-Powered Workstation for Microstock Metadata, SEO Optimization, and Batch FTP Distribution with Built-in Market Intelligence.
 
 [**Artush GPX Tracker (🤖 Android Mobile App)**](https://play.google.com/apps/testing/com.artush.gpxtracker)  
 Lightweight, ad-free mobile GPS track logger for photographers and outdoor photo geotagging.
