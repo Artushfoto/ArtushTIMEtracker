@@ -561,8 +561,8 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
 <table style="width: 100%; display: table; border-collapse: collapse; margin-top: 20px;">
   <tr>
     <th style="text-align: center; padding: 25px 15px; background-color: rgba(0, 164, 239, 0.08); border: 1px solid rgba(0, 164, 239, 0.3); border-radius: 6px;">
-      <!-- Status Badge / Button -->
-      <div style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 100%; max-width: 420px; font-size: 1.05em; font-weight: 600; padding: 14px 20px; margin: 0 auto; background: #ffffff; border: 1px solid #00A4EF; border-radius: 6px; color: #1a1a1a; box-shadow: 0 2px 4px rgba(0,0,0,0.04);">
+      <!-- Microsoft Store Button -->
+      <a href="https://apps.microsoft.com/store/detail/XP9M08J0BVR559" target="_blank" rel="noopener noreferrer" title="Get Artush Time Tracker on Microsoft Store" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 100%; max-width: 420px; font-size: 1.05em; font-weight: 600; padding: 14px 20px; margin: 0 auto; background: #ffffff; border: 1px solid #00A4EF; border-radius: 6px; color: #1a1a1a; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.06); transition: all 0.2s ease;">
         <!-- Microsoft Logo SVG -->
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;">
           <path d="M1 1H10.5V10.5H1V1Z" fill="#F25022"/>
@@ -570,22 +570,21 @@ Artush Time Tracker is crafted with respect for user freedom and fair pricing:
           <path d="M1 13.5H10.5V23H1V13.5Z" fill="#00A4EF"/>
           <path d="M13.5 13.5H23V23H13.5V13.5Z" fill="#FFB900"/>
         </svg>
-        <span>Microsoft Store – Certification in Progress</span>
-      </div>
+        <span>Get it from Microsoft Store</span>
+      </a>
     </th>
   </tr>
   <tr>
     <td style="text-align: center; padding: 15px 10px 5px 10px;">
-      <b>Direct download via Microsoft Store coming very soon</b>
+      <b>Direct download via Microsoft Store</b>
     </td>
   </tr>
   <tr>
     <td style="text-align: center; padding: 5px 8px 15px 8px; font-size: 0.9em; color: #666;">
-      Under review &bull; Automatic background updates &bull; Certified &amp; verified by Microsoft
+      Automatic background updates &bull; Certified &amp; verified by Microsoft &bull; Trusted Windows App
     </td>
   </tr>
 </table>
-
 
 <table style="width: 100%; display: table; border-collapse: collapse; margin-top: 20px;">
   <tr>
