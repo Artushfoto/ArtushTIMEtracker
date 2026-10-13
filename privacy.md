@@ -80,3 +80,39 @@ The European Commission provides an online platform for out-of-court dispute res
 ---
 *Artush Time Tracker — precise time tracking, intuitive scheduling, and effortless client billing.*
 
+<!-- Odložené načtení Google Analytics pro maximální PageSpeed skóre -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let analyticsLoaded = false;
+
+    function loadAnalytics() {
+      if (analyticsLoaded) return;
+      analyticsLoaded = true;
+
+      // 1. Dynamické vložení externího skriptu gtag.js s ID
+      var gtagScript = document.createElement('script');
+      gtagScript.async = true;
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-GWJ4NLYPWT';
+      document.head.appendChild(gtagScript);
+
+      // 2. Inicializace nastavení Google Analytics
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-GWJ4NLYPWT');
+
+      // 3. Odstranění posluchačů událostí po úspěšném načtení
+      document.removeEventListener('scroll', loadAnalytics);
+      document.removeEventListener('mousemove', loadAnalytics);
+      document.removeEventListener('touchstart', loadAnalytics);
+    }
+
+    // Spuštění při první skutečné interakci uživatele
+    document.addEventListener('scroll', loadAnalytics, { passive: true });
+    document.addEventListener('mousemove', loadAnalytics, { passive: true });
+    document.addEventListener('touchstart', loadAnalytics, { passive: true });
+
+    // Pojistka: Pokud uživatel do 5 sekund nic neudělá, načíst Analytics automaticky
+    setTimeout(loadAnalytics, 5000);
+  });
+</script>
