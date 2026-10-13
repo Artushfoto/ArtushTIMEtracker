@@ -149,7 +149,7 @@ h1 { text-align: center; }
 
 ## Managing Your ArtushVision Time Tracker License
 
-> Your ArtushVision Time Tracker license allows activation on up to **2 devices** simultaneously. Use this guide to manage your software activations and account settings.
+> Your ArtushVision Time Tracker license allows activation on  **1 devices**. Use this guide to manage your software activations and account settings.
 
 ### 1. Access Your Customer Portal
 All software licenses are securely managed via **Polar.sh**. To manage your account:
@@ -170,12 +170,6 @@ Once logged in to your dashboard, navigate to the **"Purchases"** or **"Benefits
 If you have questions regarding your license, activation issues, or need technical assistance with our time tracking tools, please reach out to our team.
 
 **Email Support:** **support(@)artushfoto.eu**
-
----
-
-### [Get Started Now]
-- [Download Free Lite Version](/docs/download-purchase.html)
-- [Purchase Lifetime License - $29.99](/docs/download-purchase.html#buy-lifetime-license)
 
 ---
 
